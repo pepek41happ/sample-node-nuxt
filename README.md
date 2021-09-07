@@ -1,25 +1,25 @@
 # Sample Application with Nuxt.js
 
-## Deploy on Scalingo
+This sample is running on: https://node-nuxt.is-easy-on-scalingo.com/
+
+## Deploy via Git
 
 Create an application on https://scalingo.com, then:
 
-```sh
+```shell
 scalingo --app my-app git-setup
 git push scalingo master
 ```
 
 And that's it!
 
-This application is running at this url: https://nuxt.is-easy-on-scalingo.com/
+## Deploy via One Click
 
-## Deploy in One Click
-
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/Scalingo/sample-node-nuxt)
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
 
 ## Running Locally
 
-```bash
+```shell
 # install dependencies
 $ yarn install
 
