@@ -20,18 +20,12 @@ And that's it!
 ## Running Locally
 
 ```shell
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+docker-compose build
+docker-compose up
 ```
+
+And it's running at http://localhost:3000.
+
+## Links
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
